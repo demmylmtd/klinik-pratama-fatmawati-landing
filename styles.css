@@ -109,7 +109,7 @@ em { font-style: normal; color: var(--accent-deep); }
 }
 .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); }
 .brand-mark { flex: none; }
-.brand-name { font-family: var(--font-display); font-weight: 600; font-size: 1.3rem; letter-spacing: -0.02em; }
+.brand-name { font-family: var(--font-display); font-weight: 600; font-size: 1.1rem; letter-spacing: -0.02em; white-space: nowrap; }
 .brand-plus { color: var(--accent-deep); }
 .nav-links { display: flex; gap: 26px; margin-left: auto; }
 .nav-links a { text-decoration: none; color: var(--ink); font-weight: 500; font-size: 0.98rem; transition: color 0.2s; }

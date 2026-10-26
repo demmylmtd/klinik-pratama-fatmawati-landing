@@ -1,4 +1,4 @@
-/* Klinik TriHati Plus — interactions
+/* Klinik Pratama Fatmawati — interactions
    1. Mobile drawer
    2. Staggered section entrances (IntersectionObserver)
    3. Gallery "index with preview"
@@ -133,12 +133,12 @@
         tglID = d.toLocaleDateString("id-ID", { weekday: "long", day: "numeric", month: "long", year: "numeric" });
       }
 
-      var msg = "Halo Klinik TriHati Plus, saya ingin booking.\n"
+      var msg = "Halo Klinik Pratama Fatmawati, saya ingin booking.\n"
         + "Nama: " + nama + "\n"
         + "No. HP: " + telp + "\n"
         + "Layanan: " + svc + "\n"
         + "Tanggal: " + tglID;
-      window.open("https://wa.me/6285782073587?text=" + encodeURIComponent(msg), "_blank", "noopener");
+      window.open("https://wa.me/6287792000764?text=" + encodeURIComponent(msg), "_blank", "noopener");
     });
   }
 
